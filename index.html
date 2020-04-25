@@ -1,224 +1,171 @@
-
-<!-- Do not display this image at the moment
-<img border="0" src="pic_trulli.jpg" alt="Trulli">
--->
-<!-- Write your comments here -->
-<!-- Write your comments here -->
-<!-- Write your comments here -->
-<!-- Write your comments here -->
-
 <!DOCTYPE html>
-<html>
-<body style="background-color:powderblue;">
-
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
-<p>This is another paragraph.</p>
-<p>  </p>
-
-<a href="https://www.w3schools.com">This is a link</a>
-
-<img src="profile.jpg" alt="W3Schools.com" width="300" height="500">
-<p>  </p>
-<button>first button</button>
-
-
-<ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul>
-<ul style="list-style-type:square;">
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul>
-<ol>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ol>
-
-
-<ul>
-  <li>Coffee</li>
-  <li>Tea
-    <ul>
-      <li>Black tea</li>
-      <li>Green tea</li>
-    </ul>
-  </li>
-  <li>Milk</li>
-</ul>
-
-<p style="color:red">This is a red paragraph.</p>
-<p title="I'm a tooltip">
-This is a paragraph.
-</p>
-
-
-<p title="John 'ShotGun' Nelson">
-
-
-
-
-
-<h1>Heading 1</h1>
-<h2>Heading 2</h2>
-<h3>Heading 3</h3>
-<h4>Heading 4</h4>
-<h5>Heading 5</h5>
-<h6>Heading 6</h6>
-
-
-
-
-<hr>
-
-<h2>This is after hr </h2>
-<p>This is some other text.</p>
-<hr>
-
-<h2>This is again after another hr </h2>
-<p>This is some other text.</p>
-
-<pre>
-  this is 
-
-  pre tag 
-
-
-
-  tag 
-
-
-  using this ta u can have output as u have written in htm file
- </pre>
-
-
-
-<h1 style="color:blue;">This is written using style=color:blue</h1>
-<p style="color:red;">This is written using style=color:red.</p>
-
-<h1 style="font-family:verdana;">This is font-family:verdana</h1>
-<p style="font-family:courier;">font-family:courier.</p>
-
-<h1 style="font-size:300%;">This is font-size:300% heading</h1>
-<p style="font-size:160%;">This is font-size:160% paragraph.</p>
-
-<h1 style="text-align:center;">text-align:center  Centered Heading</h1>
-<p style="text-align:center;">text-align:center   Centered paragraph.</p>
-
-<strong>This text is written with strong</strong>
-<b>This text is bold</b>
-<em>This text is emphasized</em>
-<h2>HTML <small>Small</small> Formatting</h2>
-<h2>HTML <mark>Marked</mark> Formatting</h2>
-<address>
-this is written with address tag	
-Written by John Doe.<br> 
-Visit us at:<br>
-Example.com<br>
-Box 564, Disneyland<br>
-USA
-</address>
-
-<h1 style="background-color:DodgerBlue;">Hello World</h1>
-<p style="background-color:Tomato;">Lorem ipsum...</p>
-
-
-
-<h1 style="color:Tomato;">Hello World</h1>
-<p style="color:DodgerBlue;">Lorem ipsum...</p>
-<p style="color:MediumSeaGreen;">Ut wisi enim...</p>
-
-
-
-<h1 style="background-color:rgb(255, 99, 71);">rgb(255, 99, 71)</h1>
-<h1 style="background-color:#ff6347;">#ff6347</h1>
-<h1 style="background-color:hsl(9, 100%, 64%);">hsl(9, 100%, 64%)</h1>
-
-<p>Same as color name "Tomato", but 50% transparent:</p>
-<h1 style="background-color:rgba(255, 99, 71, 0.5);">rgba(255, 99, 71, 0.5)</h1>
-<h1 style="background-color:hsla(9, 100%, 64%, 0.5);">hsla(9, 100%, 64%, 0.5)</h1>
-
-
-
-
-
-
-
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333333;
+* {
+  box-sizing: border-box;
 }
 
-li {
-  float: left;
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-li a {
-  display: block;
-  color: white;
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
   text-align: center;
-  padding: 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #111111;
-}
-</style>
-
-
-
-
-<div>this is a bloxck with     div   tag</div>
-<span>this is a bloxck with     div   tag</span>
-
-<div style="background-color:black;color:white;padding:20px;">
-  <h2>London</h2>
-  <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-  <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
-</div> 
-
-
-
-
-
-
-
-
-
-<style>
-.cities {
-  background-color: black;
+  font-size: 35px;
   color: white;
-  margin: 20px;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  height:100%; /* only for demonstration, should be removed */
+ /* background: #ccc;*/
+  padding: 25px;
+  position:sticky;
+
+}
+
+/* Style the list inside the menu */
+nav ul {
+  
+  padding-top: 200px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 25px;
+
+  list-style-type: none;
+  padding: 10;
+  font-size: 25px;
+  line-height:200%;
+  position:fixed;
+}
+
+
+
+
+nav img {
+  list-style-type: none;
+  padding: 10;
+  font-size: 25px;
+  line-height:200%;
+  position:fixed;
+}
+
+article {
+  float: left;
   padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+
+ img.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: fixed;
+  top: 0;
+}
+
 }
 </style>
 </head>
 <body>
 
-<div class="cities">
-  <h2>London</h2>
-  <p>this is done with class concept</p>
-</div>
 
-<div class="cities">
-  <h2>Paris</h2>
-  <p>Paris is the capital of France.</p>
-</div>
+<section>
+  <nav>
 
+<img class="sticky" src="profile2.jpg" alt="W3Schools.com" width="200" height="200">
+<p>  </p>
+    <ul>
+      <li><a href="#About">About</a></li>
+      <li><a href="#Projects">Projects</a></li>
+      <li><a href="#Research">Reasearch</a></li>
+      <li><a href="#Projects">Projects</a></li>
+      <li><a href="#Contact">Contact</a></li>
+    </ul>
+  </nav>
+   <!--
+   <section>
+       <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+   </section>
+   -->
+ 
+  <article>
+        <section>
+   <h1 id="About" style="font-size:150%;">MD.Omer Danish</h1>
+    <h1 >About</h1>
+    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+    </section>
 
+     <section>
+      <h1 id="Research">Research</h1>
+       <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+ 
+    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+      <h1 id="Projects">Projects</h1>
+    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+   
+     <h1 id="Contact">Contact</h1>
 
+    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
 
-
+   </section>
+  </article>
 
 
 </body>
